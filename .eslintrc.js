@@ -1,3 +1,4 @@
+const prettier = require('./.prettierrc.js');
 const error = 2;
 const warn = 1;
 const ignore = 0;
@@ -14,5 +15,8 @@ module.exports = {
     es6: true,
     node: true,
     'jest/globals': true,
+  },
+  rules: {
+    'prettier/prettier': [warn, prettier],
   },
 };

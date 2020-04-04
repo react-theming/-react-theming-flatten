@@ -1,2 +1,6 @@
 /node_modules
 /dist
+
+src/test-utils/theme.js
+
+src/test-utils/palette.js
