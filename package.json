@@ -1,0 +1,51 @@
+{
+  "name": "@react-theming/extract-colors",
+  "version": "0.1.0",
+  "description": "extract all css color values from nested objects",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn tdd",
+    "prepare": "package-prepare",
+    "dev": "nodemon --exec yarn start-storybook",
+    "build-storybook": "build-storybook -s public",
+    "test": "jest",
+    "tdd": "jest --watch",
+    "lint:fix": "eslint src --fix"
+  },
+  "keywords": [
+    "color",
+    "css",
+    "nested",
+    "extract",
+    "get",
+    "flat",
+    "flatten",
+    "theme",
+    "colors",
+    "rgb",
+    "rgba",
+    "hex",
+    "hsl",
+    "hsla",
+    "get color from nested objects"
+  ],
+  "author": "Oleg Proskurin https://github.com/UsulPro",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@usulpro/package-prepare": "^1.2.1",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.2.6",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-json": "^2.1.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.2.7",
+    "nodemon": "^2.0.2",
+    "prettier": "^2.0.2"
+  }
+}
